@@ -1,0 +1,26 @@
+.message {
+    position: fixed;
+    bottom: 2em;
+    left: 1em;
+    width: 15%;
+    padding: 1em;
+    border: 1px solid #000;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+
+.success {
+    color: #fff;
+    background-color: rgba(50,205,0, 0.8);
+    border-color: #c3E6CB;
+    font-weight: bold;
+}
+
+.erro {
+    color: #721c24;
+    background-color: rgba(248, 215, 218, 0.8);
+    border-color: #f5c6cb;
+    font-weight: bold;
+}

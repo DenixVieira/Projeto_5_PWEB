@@ -1,0 +1,31 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-shadow: #000 1px 1px;
+}
+
+.pages {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: none;
+}
+
+.min_height {
+    min-height: 80.9%;
+}
+
+.start {
+    justify-content: flex-start;    
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+}
